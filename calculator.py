@@ -1,6 +1,9 @@
 ### Plus calculator
 
-x = int(input("Enter the first operand: "))
-y = int(input("Enter the second operand: "))
+def add(*operands):
+    return sum(operands)
 
-print("The sum is " + str(x + y))
+### Minus calculator
+
+def subtract(x, y):
+    return x - y
